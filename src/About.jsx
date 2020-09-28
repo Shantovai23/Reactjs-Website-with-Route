@@ -1,8 +1,13 @@
 import React from 'react'
+import Common from './Common'
+import img from './img/sitting-desktop.svg'
 
 const About=()=>{
     return(<>
-         <h1 className='text-center'>Its About Page</h1>
+         <Common name='We Are Fantastic Talented Developers'
+          imgsrc={img} 
+          visit='/contact'
+          btnname='Contact Now'/>
     </>)
 }
 
